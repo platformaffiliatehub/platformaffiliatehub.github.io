@@ -12,18 +12,15 @@ export function Header() {
   return (
     <header className="border-b border-gray-100 bg-white">
       <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-4 px-5 py-3">
-        <Link href="/" className="flex flex-col justify-center">
+        <Link href="/" className="flex items-center">
           <Image
-            src="/logo-header.png"
-            alt="Platform Hub"
-            width={1429}
-            height={270}
+            src="/logo-full.png"
+            alt="Platform Hub — Discover. Compare. Choose Better."
+            width={1519}
+            height={280}
             priority
-            style={{ height: "36px", width: "auto" }}
+            style={{ height: "72px", width: "auto" }}
           />
-          <span className="mt-0.5 text-[10px] font-medium tracking-wide text-brand-gray">
-            Discover. Compare. Choose Better.
-          </span>
         </Link>
         <nav className="flex gap-6 text-sm font-medium text-brand-navy">
           {NAV_LINKS.map((link) => (
