@@ -11,7 +11,7 @@ const NAV_LINKS = [
 export function Header() {
   return (
     <header className="border-b border-gray-100 bg-white">
-      <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-4 px-5 py-3">
+      <div className="flex w-full flex-wrap items-center justify-between gap-4 px-6 py-3 sm:px-10">
         <Link href="/" className="flex items-center">
           <Image
             src="/logo-full.png"
