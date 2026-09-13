@@ -14,12 +14,12 @@ export function Header() {
       <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-4 px-5 py-3">
         <Link href="/" className="flex flex-col justify-center">
           <Image
-            src="/logo-wordmark.png"
+            src="/logo-header.png"
             alt="Platform Hub"
-            width={1705}
-            height={210}
+            width={1429}
+            height={270}
             priority
-            style={{ height: "30px", width: "auto" }}
+            style={{ height: "36px", width: "auto" }}
           />
           <span className="mt-0.5 text-[10px] font-medium tracking-wide text-brand-gray">
             Discover. Compare. Choose Better.
