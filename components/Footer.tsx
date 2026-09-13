@@ -9,7 +9,7 @@ const LEGAL_LINKS = [
 export function Footer() {
   return (
     <footer className="border-t border-gray-100 bg-white">
-      <div className="mx-auto max-w-5xl px-5 py-8 text-sm text-brand-gray">
+      <div className="w-full px-6 py-8 text-sm text-brand-gray sm:px-10">
         <p className="mb-3">
           Platform Hub — Discover. Compare. Choose Better.
         </p>
