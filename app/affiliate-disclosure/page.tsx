@@ -4,9 +4,9 @@ export default function AffiliateDisclosurePage() {
       <h1 className="mb-6 text-3xl font-bold text-brand-navy">Affiliate Disclosure</h1>
       <div className="space-y-4 text-[1.05rem] leading-relaxed text-gray-700">
         <p>
-          Platform Hub is a participant in the Amazon Services LLC Associates Program, an
+          Platform Hub is a participant in the Amazon EU Associates Programme, an
           affiliate advertising program designed to provide a means for sites to earn
-          advertising fees by advertising and linking to Amazon.com.
+          advertising fees by advertising and linking to Amazon.co.uk.
         </p>
         <p>
           We also participate in other affiliate programs, including ClickBank, and may
