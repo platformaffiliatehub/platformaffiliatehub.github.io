@@ -10,6 +10,9 @@ export const metadata: Metadata = {
     icon: "/favicon-32.png",
     apple: "/apple-touch-icon.png",
   },
+  other: {
+    "fo-verify": "8718dfd9-44fc-480a-bb09-435dafda2a64",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
