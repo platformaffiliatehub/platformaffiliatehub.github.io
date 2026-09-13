@@ -16,10 +16,10 @@ export function Header() {
           <Image
             src="/logo.png"
             alt="Platform Hub"
-            width={220}
-            height={64}
+            width={248}
+            height={99}
             priority
-            style={{ height: "40px", width: "auto" }}
+            style={{ height: "64px", width: "auto" }}
           />
         </Link>
         <nav className="flex gap-6 text-sm font-medium text-brand-navy">
