@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-const WEB3FORMS_ACCESS_KEY = "REPLACE_WITH_WEB3FORMS_ACCESS_KEY";
+const WEB3FORMS_ACCESS_KEY = "906b90fd-1525-4ec1-8f48-c420f1465f98";
 
 export default function ContactPage() {
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
