@@ -16,8 +16,8 @@ export function Header() {
           <Image
             src="/logo-full.png"
             alt="Platform Hub — Discover. Compare. Choose Better."
-            width={1519}
-            height={280}
+            width={1216}
+            height={261}
             priority
             style={{ height: "72px", width: "auto" }}
           />
